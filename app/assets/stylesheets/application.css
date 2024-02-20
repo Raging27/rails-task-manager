@@ -13,3 +13,11 @@
  *= require_tree .
  *= require_self
  */
+
+ .list-group-item a {
+  text-decoration: none;
+}
+
+.list-group-item a:hover {
+  text-decoration: underline;
+}
